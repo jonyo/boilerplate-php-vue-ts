@@ -1,0 +1,10 @@
+{
+    "name": "jonyo/boilerplate-php-vue-ts",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jonyo\\Boilerplate\\": "src/"
+        }
+    },
+    "require": {}
+}

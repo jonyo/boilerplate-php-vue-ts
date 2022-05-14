@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+  boilerplate-php-vue-ts:
+    # we want to use the image which is build from our Dockerfile
+    build: .
+    ports:
+      - "8080:80"
+    # we mount the working dir into the container, handy for development
+    volumes:
+      - .:/var/www/html/
+      - ./docker/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
