@@ -1,0 +1,10 @@
+{
+    "name": "jonyo/tech-interview",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jonyo\\TechInterview\\": "src/"
+        }
+    },
+    "require": {}
+}

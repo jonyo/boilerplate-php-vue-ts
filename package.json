@@ -1,0 +1,38 @@
+{
+  "name": "tech-interview",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "eslint": "eslint --max-warnings=0 \"src/**/*.{ts,js,vue}\"",
+    "eslint-fix": "eslint --max-warnings=0 --fix \"src/**/*.{ts,js,vue}\"",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "@vue/compiler-sfc": "^3.2.33",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "file-loader": "^6.2.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.11",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "terser-webpack-plugin": "^5.3.1",
+    "vue": "^3.2.33"
+  }
+}
